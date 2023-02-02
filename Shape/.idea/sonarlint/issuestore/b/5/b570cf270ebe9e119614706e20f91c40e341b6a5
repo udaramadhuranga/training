@@ -1,0 +1,14 @@
+
+w
+java:S1488	"\Immediately return this expression instead of assigning it to the temporary variable "area".(Ü ãıÿÿÿÿ
+~
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "preimeter".(ŸšÙ8Ùó˜‡á0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«„°ºùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ‡÷‡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Üéß¦
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8šŠ‰…á0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8…Ì‰…á0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(›å¬şÿÿÿÿ8çªŠ…á0
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ùì¨8„²‹…á0
