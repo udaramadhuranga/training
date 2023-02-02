@@ -1,0 +1,15 @@
+
+w
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "area".(¶Éœ‰ÿÿÿÿÿ
+|
+java:S1488!"aImmediately return this expression instead of assigning it to the temporary variable "perimeter".(ÕÀ¯¾úÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(³¿„
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ˆ‡÷‡
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(¸àÄ¹
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(«Óæ„úÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(›å¬şÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ùì¨
