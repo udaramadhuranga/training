@@ -11,10 +11,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Builder
 @Document(collection = "students")
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class StudentModel {
+public class Student {
 
     @Id
    @Getter @Setter private String id;
@@ -24,6 +23,9 @@ public class StudentModel {
 
     @Getter @Setter private int average;
 
-
-
+    public Student(String name, String dob, int average) {
+        this.name = name;
+        this.dob = dob;
+        this.average = average;
+    }
 }

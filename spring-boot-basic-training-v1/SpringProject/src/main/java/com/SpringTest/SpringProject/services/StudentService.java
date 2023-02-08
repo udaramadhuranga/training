@@ -1,17 +1,19 @@
 package com.SpringTest.SpringProject.services;
 
-import com.SpringTest.SpringProject.model.StudentModel;
+
+import com.SpringTest.SpringProject.model.Student;
+import com.SpringTest.SpringProject.payload.request.StudentRequest;
 import com.SpringTest.SpringProject.payload.response.StudentCreateResponse;
 
 import java.util.List;
 import java.util.Optional;
 
 public interface StudentService {
-    StudentCreateResponse addMethod(StudentModel s);
+    StudentCreateResponse addMethod(StudentRequest s);
 
-    List<StudentModel> getStudentsList();
+    List<Student> getStudentsList();
 
-    Optional<StudentModel> getstudent(String id);
+    Optional<Student> getstudent(String id);
 
     String deleteStudentById(String id);
 }

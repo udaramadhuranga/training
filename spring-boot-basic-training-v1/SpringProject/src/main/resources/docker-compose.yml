@@ -8,6 +8,7 @@ services:
 
   springboot-mongodb:
     image: springboot-mongodb:1.0
+    build: ../../../
     container_name: springboot-mongodb
     ports:
       - 3002:3002
