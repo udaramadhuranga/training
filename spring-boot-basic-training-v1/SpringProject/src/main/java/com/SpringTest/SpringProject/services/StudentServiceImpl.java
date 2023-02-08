@@ -1,6 +1,8 @@
 package com.SpringTest.SpringProject.services;
 
-import com.SpringTest.SpringProject.model.StudentModel;
+
+import com.SpringTest.SpringProject.model.Student;
+import com.SpringTest.SpringProject.payload.request.StudentRequest;
 import com.SpringTest.SpringProject.payload.response.StudentCreateResponse;
 import com.SpringTest.SpringProject.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,23 +18,25 @@ public class StudentServiceImpl  implements StudentService{
     private StudentRepo studentRepo;
 
     @Override
-    public StudentCreateResponse addMethod(StudentModel s) {
-        StudentModel studentModel;
+    public StudentCreateResponse addMethod(StudentRequest studentRequest) {
+        Student student = new Student(studentRequest.getName(),studentRequest.getDob(),studentRequest.getAverage()) ;
 
-        studentModel = studentRepo.save(s);
 
-         StudentCreateResponse response = new StudentCreateResponse(studentModel,"Student create success ");
+
+        student = studentRepo.save(student);
+
+         StudentCreateResponse response = new StudentCreateResponse(student,"Student create success ");
 
          return response;
     }
 
     @Override
-    public List<StudentModel> getStudentsList() {
+    public List<Student> getStudentsList() {
         return studentRepo.findAll();
     }
 
     @Override
-    public Optional<StudentModel> getstudent(String id) {
+    public Optional<Student> getstudent(String id) {
         return studentRepo.findById(id);
     }
 
