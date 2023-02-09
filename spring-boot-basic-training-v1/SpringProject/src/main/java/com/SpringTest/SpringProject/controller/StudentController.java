@@ -25,6 +25,8 @@ public class StudentController {
     @PostMapping("/")
     public ResponseEntity<StudentCreateResponse> addStudent(@RequestBody StudentRequest student){
 
+
+
         try {
             logger.info(" Student add function Success");
             return new ResponseEntity<>(studentService.addMethod(student), HttpStatus.CREATED);
