@@ -2,6 +2,7 @@ package com.SpringTest.SpringProject.model;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Data;
@@ -19,11 +20,12 @@ public class Student {
    @Getter @Setter private String id;
     @Getter @Setter private String name;
 
-    @Getter @Setter private String dob;
+    @JsonFormat(pattern="yyyy-MM-dd")
+    @Getter @Setter private Date dob;
 
     @Getter @Setter private int average;
 
-    public Student(String name, String dob, int average) {
+    public Student(String name, Date dob, int average) {
         this.name = name;
         this.dob = dob;
         this.average = average;
