@@ -89,6 +89,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName> springboot-sec-mongo-docker </finalName>
 	</build>
 
 </project>
